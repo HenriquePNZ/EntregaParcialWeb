@@ -8,7 +8,7 @@ body {
   background-image: url("imagens/Supernintendo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; /* Torna a imagem de fundo fixa */
+  background-attachment: fixed; 
   font-family: "VT323", monospace;
 }
 
@@ -118,47 +118,44 @@ a:visited {
 
 
 
-/*--------------------------------------Cadastro de Usuário---------------------------------------------*/
 
-
-/* Efeito de aumento ao passar o mouse (hover) */
 .logo img:hover {
-    transform: scale(1.2); /* Aumenta o tamanho para 120% do tamanho original */
+    transform: scale(1.2);
 }
-/* Estilos para a div translúcida */
+
 .translucent-div {
   background-color: rgba(255, 255, 255, 0.5);
   border: 5px solid #000;
   border-radius: 15px;
   padding: 20px;
   width: 60%;
-  margin: 0 auto; /* Centralize a div horizontalmente */
+  margin: 0 auto; 
 }
 
- /* CSS para a imagem de perfil circular */
+ 
  .circular-image {
-  width: 150px; /* Largura da imagem de perfil (ajuste conforme necessário) */
-  height: 150px; /* Altura da imagem de perfil (ajuste conforme necessário) */
-  border-radius: 50%; /* Bordas arredondadas para criar o formato de círculo */
-  overflow: hidden; /* Oculta qualquer conteúdo fora do círculo */
-  transition: transform 0.3s; /* Efeito de transição suave */
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  overflow: hidden; 
+  transition: transform 0.3s; /
 }
   
 .circular-image img {
-  width: 100%; /* 100% da largura do elemento pai (círculo) */
-  height: 100%; /* 100% da altura do elemento pai (círculo) */
-  object-fit: cover; /* Mantém a proporção e preenche o círculo */
-  object-position: center center; /* Centraliza a imagem no círculo */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center; 
 }
   
-  /* Efeito de aumento ao passar o mouse */
+
   .circular-image:hover {
-	transform: scale(1.4); /* Aumenta o tamanho para 140% do tamanho original */
+	transform: scale(1.4);
   }
-  /* Estilos para as abas */
+ 
   .tabs {
     display: flex;
-    justify-content: center; /* Centralize as abas horizontalmente */
+    justify-content: center; 
     margin-top: 20px;
 }
   
@@ -173,37 +170,37 @@ a:visited {
   text-decoration: none;
   color: #000;
   transition: background-color 0.3s, color 0.3s;
-  margin: 5px; /* Espaçamento entre as abas */
+  margin: 5px; 
 }
   
   .tab:hover {
 	background-color: #ddd;
   }
   
-  /* Estilos para o conteúdo das abas */
+ 
   .tab-content {
     display: none;
     padding: 20px;
 }
 .tab-container {
-  text-align: center; /* Centralize o conteúdo das abas horizontalmente */
+  text-align: center;
 }
 
   
-  /* Exibir conteúdo da aba ativa */
+  
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
     display: block;
 }
   
-  /* Estilo para a aba selecionada */
+ 
   .tab-radio:checked + label {
-	background-color: #fff; /* Cor de fundo branca para a aba selecionada */
-	color: #000; /* Cor do texto preto para a aba selecionada */
+	background-color: #fff; 
+	color: #000;
   }
   
-  /* CSS para a imagem de perfil e detalhes do usuário */
+  
 .user-profile {
     display: flex;
     align-items: center;
@@ -225,7 +222,7 @@ a:visited {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    font-size: 22px; /* Aumentar o tamanho da fonte para os rótulos */
+    font-size: 22px;
     
 
 }
@@ -235,7 +232,7 @@ a:visited {
     flex-grow: 1;
 }
 
-/* Estilo para as caixas de texto */
+
 .input-field {
     margin-bottom: 20px;
 }
@@ -258,17 +255,17 @@ a:visited {
     font-size: 16px;
 }
 
-/* Estilo para as caixas de texto quando estão em foco */
+
 .input-field input[type="text"]:focus,
 .input-field input[type="password"]:focus,
 .input-field input[type="email"]:focus,
 .input-field input[type="date"]:focus,
 .input-field textarea:focus {
-    border-color: hsl(120, 100%, 70%); /* Cor da borda quando está em foco */
-    outline: none; /* Remove a borda de foco padrão do navegador */
-    box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7); /* Sombra quando está em foco */
+    border-color: hsl(120, 100%, 70%); 
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7);
 }
-/* Centraliza o título "Perfil do Usuário" na div translúcida */
+
 .profile-title {
     text-align: center;
 }
@@ -279,12 +276,12 @@ a:visited {
   align-items: center;  
 }
 
-/* Estilo para o botão de upload */
+
 .upload-button {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza verticalmente */
-  margin-top: 20px; /* Espaçamento acima do botão */
+  align-items: center; 
+  margin-top: 20px; 
 }
 
 .upload-label {
@@ -302,37 +299,37 @@ a:visited {
 }
 
 .upload-input {
-  display: none; /* Oculta o input de upload real */
+  display: none; 
 }
 
 
-/* Estilos para os botões "Cancelar" e "Salvar" */
+
 .button-container {
-  text-align: center; /* Centralize os botões horizontalmente */
-  margin-top: 10px; /* Espaçamento superior entre a div translúcida e os botões */
+  text-align: center; 
+  margin-top: 10px; 
 }
 
 .cancel-button,
 .edit-button {
-  padding: 10px 20px; /* Espaçamento interno dos botões */
-  margin: 0 10px; /* Espaçamento horizontal entre os botões */
-  font-size: 16px; /* Tamanho da fonte dos botões */
-  border: none; /* Remove as bordas dos botões */
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px; 
+  border: none; 
   cursor: pointer;
-  background-color: gray; /* Cor de fundo para ambos os botões */
-  color: #fff; /* Cor do texto para ambos os botões */
+  background-color: gray; 
+  color: #fff; 
   border-radius: 50px;
 }
 
 .cancel-button:hover{
-  background-color: #ff6666; /* Cor de fundo vermelha para o botão "Cancelar" */
-  transform: translateY(-4px); /* Efeito de elevação ao passar o mouse */
-  box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
+  background-color: #ff6666;
+  transform: translateY(-4px);
+  box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2); 
 }
 .edit-button:hover {
-  background-color: hsl(120, 100%, 70%); /* Cor de fundo ao passar o mouse nos botões */
-  transform: translateY(-4px); /* Efeito de elevação ao passar o mouse */
-  box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
+  background-color: hsl(120, 100%, 70%);
+  transform: translateY(-4px); 
+  box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .input-field select {
@@ -343,14 +340,14 @@ a:visited {
   font-size: 16px;
 }
 
-/* Estilo para o campo de seleção quando está em foco */
+
 .input-field select:focus {
   border-color: #66ff66;
   outline: none;
   box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7);
 }
 
-/* Estilo para o campo de seleção Sexo */
+
 .input-field select[name="gender"] {
   width: 100%;
   padding: 10px;
@@ -359,7 +356,7 @@ a:visited {
   font-size: 16px;
 }
 
-/* Estilo para o campo de seleção Sexo quando está em foco */
+
 .input-field select[name="gender"]:focus {
   border-color: #66ff66;
   outline: none;
@@ -368,17 +365,17 @@ a:visited {
 
 
 
-/* Estilo para o rodapé */
+
 footer {
-  background-color: #262626; /* Cor de fundo do rodapé */
-  color: #fff; /* Cor do texto no rodapé */
-  padding: 2px; /* Espaçamento interno no rodapé */
-  text-align: center; /* Alinhamento do texto no centro */
-  font-size: 20px; /* Tamanho da fonte do texto no rodapé */
-  position: fixed; /* Fixa o rodapé na parte inferior da janela de visualização */
-  left: 0; /* Alinha o rodapé à esquerda */
-  right: 0; /* Alinha o rodapé à direita */
-  bottom: 0; /* Fixa o rodapé na parte inferior */
+  background-color: #262626; 
+  color: #fff; 
+  padding: 2px; 
+  text-align: center; 
+  font-size: 20px;
+  position: fixed;
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
 }
 table,
 tr {
@@ -395,7 +392,7 @@ tr {
 .table {
   border-collapse: collapse;
   width: 100%;
-  border-radius: 10px; /* Define o raio do arredondamento das bordas */
+  border-radius: 10px; 
 }
 
 .table th,
@@ -404,10 +401,3 @@ tr {
   padding: 8px;
   text-align: center;
 }
-
-/* Adicione outros estilos CSS aqui conforme necessário */
-
-
-
-
-
