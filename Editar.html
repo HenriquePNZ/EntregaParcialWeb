@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="Editar.css" />
   </head>
-  
-<body>
+
+  <body>
     <header>
       <div class="topo">
         <h1 class="titulo">Mirror Tetris</h1>
@@ -23,21 +23,19 @@
           <li class="navegacao"><a href="inicio.html">Sair</a></li>
         </ul>
       </div>
-      
     </header>
-    <br>
+    <br />
 
     <!--Conteúdo usuário-->
     <!-- Div translúcida -->
     <div class="translucent-div tab-container">
-      <h1 class="profile-title">Editar Usuário</h1><br><br>
+      <h1 class="profile-title">Editar Usuário</h1>
+      <br /><br />
 
       <!-- Abas -->
-      
+
       <input type="radio" name="tab" id="tab1" class="tab-radio" checked />
       <label for="tab1" class="tab" id="tab-label1">Dados Pessoais</label>
-
-      
 
       <!-- Conteúdo das abas -->
       <div class="tab-content" id="content1">
@@ -46,17 +44,22 @@
           <div class="circular-image">
             <img src="imagens/pain.gif" alt="Foto de Perfil" />
           </div>
-          
-        </div><br>
+        </div>
+        <br />
         <div class="upload-button">
           <label for="profile-picture-upload" class="upload-label">
             Alterar Imagem de Perfil
           </label>
-          <input type="file" id="profile-picture-upload" class="upload-input" accept="image/*" />
-        </div><br>
-                
-        <div class="user-profile">         
-          
+          <input
+            type="file"
+            id="profile-picture-upload"
+            class="upload-input"
+            accept="image/*"
+          />
+        </div>
+        <br />
+
+        <div class="user-profile">
           <div class="user-details">
             <div class="input-field">
               <label for="username">Nome de Usuário:</label>
@@ -66,7 +69,7 @@
                 name="username"
                 placeholder="Digite seu nome de usuário"
               />
-            </div> 
+            </div>
 
             <div class="input-field">
               <label for="birthdate">Data de Nascimento:</label>
@@ -97,13 +100,9 @@
                 <option value="Masculino">Masculino</option>
                 <option value="LGBTQIAPN+">LGBTQIAPN+</option>
               </select>
-
-              
             </div>
           </div>
         </div>
-        
-        
       </div>
 
       <!-- Conteúdo da aba "Rei dos Jogos" -->
@@ -147,13 +146,14 @@
         <span id="game-time">5 horas</span><br />
       </div>
       <div class="button-container">
-        <a href="Perfil.html"><button class="cancel-button">Cancelar</button></a>
+        <a href="Perfil.html"
+          ><button class="cancel-button">Cancelar</button></a
+        >
         <a href="Perfil.html"><button class="save-button">Salvar</button></a>
+      </div>
     </div>
-    </div>    
-    <br><br>
+    <br /><br />
 
-    
     <footer>
       <p>&copy; SI401B - Programação para a Web - 2023</p>
     </footer>

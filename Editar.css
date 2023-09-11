@@ -61,7 +61,6 @@ a:visited {
   cursor: pointer;
 }
 
-
 .tela {
   border-radius: 20px;
   margin-top: 200px;
@@ -91,7 +90,6 @@ a:visited {
   font-size: 25px;
 }
 
-
 .tamanho {
   height: 1%;
   width: 100%;
@@ -115,15 +113,11 @@ a:visited {
   padding-top: 40px;
 }
 
-
-
-
 /*--------------------------------------Cadastro de Usuário---------------------------------------------*/
-
 
 /* Efeito de aumento ao passar o mouse (hover) */
 .logo img:hover {
-    transform: scale(1.2); /* Aumenta o tamanho para 120% do tamanho original */
+  transform: scale(1.2); /* Aumenta o tamanho para 120% do tamanho original */
 }
 /* Estilos para a div translúcida */
 .translucent-div {
@@ -135,33 +129,33 @@ a:visited {
   margin: 0 auto; /* Centralize a div horizontalmente */
 }
 
- /* CSS para a imagem de perfil circular */
- .circular-image {
+/* CSS para a imagem de perfil circular */
+.circular-image {
   width: 150px; /* Largura da imagem de perfil (ajuste conforme necessário) */
   height: 150px; /* Altura da imagem de perfil (ajuste conforme necessário) */
   border-radius: 50%; /* Bordas arredondadas para criar o formato de círculo */
   overflow: hidden; /* Oculta qualquer conteúdo fora do círculo */
   transition: transform 0.3s; /* Efeito de transição suave */
 }
-  
+
 .circular-image img {
   width: 100%; /* 100% da largura do elemento pai (círculo) */
   height: 100%; /* 100% da altura do elemento pai (círculo) */
   object-fit: cover; /* Mantém a proporção e preenche o círculo */
   object-position: center center; /* Centraliza a imagem no círculo */
 }
-  
-  /* Efeito de aumento ao passar o mouse */
-  .circular-image:hover {
-	transform: scale(1.4); /* Aumenta o tamanho para 140% do tamanho original */
-  }
-  /* Estilos para as abas */
-  .tabs {
-    display: flex;
-    justify-content: center; /* Centralize as abas horizontalmente */
-    margin-top: 20px;
+
+/* Efeito de aumento ao passar o mouse */
+.circular-image:hover {
+  transform: scale(1.4); /* Aumenta o tamanho para 140% do tamanho original */
 }
-  
+/* Estilos para as abas */
+.tabs {
+  display: flex;
+  justify-content: center; /* Centralize as abas horizontalmente */
+  margin-top: 20px;
+}
+
 .tab {
   display: inline-block;
   text-align: center;
@@ -175,75 +169,72 @@ a:visited {
   transition: background-color 0.3s, color 0.3s;
   margin: 5px; /* Espaçamento entre as abas */
 }
-  
-  .tab:hover {
-	background-color: #ddd;
-  }
-  
-  /* Estilos para o conteúdo das abas */
-  .tab-content {
-    display: none;
-    padding: 20px;
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para o conteúdo das abas */
+.tab-content {
+  display: none;
+  padding: 20px;
 }
 .tab-container {
   text-align: center; /* Centralize o conteúdo das abas horizontalmente */
 }
 
-  
-  /* Exibir conteúdo da aba ativa */
+/* Exibir conteúdo da aba ativa */
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
-    display: block;
+  display: block;
 }
-  
-  /* Estilo para a aba selecionada */
-  .tab-radio:checked + label {
-	background-color: #fff; /* Cor de fundo branca para a aba selecionada */
-	color: #000; /* Cor do texto preto para a aba selecionada */
-  }
-  
-  /* CSS para a imagem de perfil e detalhes do usuário */
+
+/* Estilo para a aba selecionada */
+.tab-radio:checked + label {
+  background-color: #fff; /* Cor de fundo branca para a aba selecionada */
+  color: #000; /* Cor do texto preto para a aba selecionada */
+}
+
+/* CSS para a imagem de perfil e detalhes do usuário */
 .user-profile {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .user-details {
-    flex-grow: 1;
-    margin-left: 20px;
+  flex-grow: 1;
+  margin-left: 20px;
 }
 
 .input-field {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .input-field label {
-    flex-basis: 40%;
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 22px; /* Aumentar o tamanho da fonte para os rótulos */
-    
-
+  flex-basis: 40%;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 22px; /* Aumentar o tamanho da fonte para os rótulos */
 }
 
 .input-field input,
 .input-field textarea {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 /* Estilo para as caixas de texto */
 .input-field {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .input-field label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .input-field input[type="text"],
@@ -251,11 +242,11 @@ a:visited {
 .input-field input[type="email"],
 .input-field input[type="date"],
 .input-field textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 /* Estilo para as caixas de texto quando estão em foco */
@@ -264,19 +255,19 @@ a:visited {
 .input-field input[type="email"]:focus,
 .input-field input[type="date"]:focus,
 .input-field textarea:focus {
-    border-color: hsl(120, 100%, 70%); /* Cor da borda quando está em foco */
-    outline: none; /* Remove a borda de foco padrão do navegador */
-    box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7); /* Sombra quando está em foco */
+  border-color: hsl(120, 100%, 70%); /* Cor da borda quando está em foco */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7); /* Sombra quando está em foco */
 }
 /* Centraliza o título "Perfil do Usuário" na div translúcida */
 .profile-title {
-    text-align: center;
+  text-align: center;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 /* Estilo para o botão de upload */
@@ -294,7 +285,6 @@ a:visited {
   padding: 10px 20px;
   border-radius: 50px;
   transition: background-color 0.3s;
-  
 }
 
 .upload-label:hover {
@@ -304,7 +294,6 @@ a:visited {
 .upload-input {
   display: none; /* Oculta o input de upload real */
 }
-
 
 /* Estilos para os botões "Cancelar" e "Salvar" */
 .button-container {
@@ -324,13 +313,17 @@ a:visited {
   border-radius: 50px;
 }
 
-.cancel-button:hover{
+.cancel-button:hover {
   background-color: #ff6666; /* Cor de fundo vermelha para o botão "Cancelar" */
   transform: translateY(-4px); /* Efeito de elevação ao passar o mouse */
   box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
 }
 .save-button:hover {
-  background-color: hsl(120, 100%, 70%); /* Cor de fundo ao passar o mouse nos botões */
+  background-color: hsl(
+    120,
+    100%,
+    70%
+  ); /* Cor de fundo ao passar o mouse nos botões */
   transform: translateY(-4px); /* Efeito de elevação ao passar o mouse */
   box-shadow: 10px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada ao passar o mouse */
 }
@@ -366,8 +359,6 @@ a:visited {
   box-shadow: 0px 0px 5px rgba(102, 255, 102, 0.7);
 }
 
-
-
 /* Estilo para o rodapé */
 footer {
   background-color: #262626; /* Cor de fundo do rodapé */
@@ -380,7 +371,3 @@ footer {
   right: 0; /* Alinha o rodapé à direita */
   bottom: 0; /* Fixa o rodapé na parte inferior */
 }
-
-
-
-
