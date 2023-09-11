@@ -140,3 +140,14 @@ aside {
   margin-left: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
+footer {
+  background-color: #262626; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto no rodapé */
+  padding: 2px; /* Espaçamento interno no rodapé */
+  text-align: center; /* Alinhamento do texto no centro */
+  font-size: 20px; /* Tamanho da fonte do texto no rodapé */
+  position: fixed; /* Fixa o rodapé na parte inferior da janela de visualização */
+  left: 0; /* Alinha o rodapé à esquerda */
+  right: 0; /* Alinha o rodapé à direita */
+  bottom: 0; /* Fixa o rodapé na parte inferior */
+}
