@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Cadastro.css" />
+  </head>
+  
+<body>
+
+    <!--Conteúdo usuário-->
+    <!-- Div translúcida -->
+    <div class="translucent-div tab-container">
+      <h1 class="profile-title">Cadastro do Usuário</h1><br><br>
+
+      <!-- Abas -->
+      
+      <input type="radio" name="tab" id="tab1" class="tab-radio" checked />
+      <label for="tab1" class="tab" id="tab-label1">Dados Pessoais</label>
+
+      
+
+      <!-- Conteúdo das abas -->
+      <div class="tab-content" id="content1">
+        <br />
+        <div class="image-container">
+          <div class="circular-image">
+            <img src="imagens/usuário.png" alt="Foto de Perfil" />
+          </div>
+          
+        </div><br>
+        <div class="upload-button">
+          <label for="profile-picture-upload" class="upload-label">
+            Carregar Imagem de Perfil
+          </label>
+          <input type="file" id="profile-picture-upload" class="upload-input" accept="image/*" />
+        </div><br>
+                
+        <div class="user-profile">         
+          
+          <div class="user-details">
+            <div class="input-field">
+              <label for="username">Nome de Usuário:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Digite seu nome de usuário"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="password">Senha:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Digite sua senha"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="password">Confirmar Senha:</label>
+              <input
+                type="password"
+                id="confirmpassword"
+                name="confirmpassword"
+                placeholder="Confirme sua senha"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Digite seu email"/>
+            </div>
+
+            <div class="input-field">
+              <label for="email">Confirmar Email:</label>
+              <input
+                type="email"
+                id="confirmemail"
+                name="confirmemail"
+                placeholder="Confirme seu email"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="birthdate">Data de Nascimento:</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                placeholder="Digite sua data de nascimento"
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="country">País:</label>
+              <select id="country" name="country">
+                <option value="" disabled selected>Selecione um país</option>
+                <option value="brasil">Brasil</option>
+                <option value="estados-unidos">Estados Unidos</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="coreia">Coreia do Sul</option>
+              </select>
+            </div>
+
+            <div class="input-field">
+              <label for="gender">Sexo:</label>
+              <select id="gender" name="gender">
+                <option value="" disabled selected>Selecione o seu Sexo</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="LGBTQIAPN+">LGBTQIAPN+</option>
+              </select>
+
+              
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="inicio.html"><button class="cancel-button">Cancelar</button></a>
+        <a href="inicio.html"><button class="save-button">Salvar</button></a>
+    </div>
+    </div>    
+    <br><br>
+
+    
+    <footer>
+      <p>&copy; SI401B - Programação para a Web - 2023</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Perfil.css" />
+  </head>
+  
+<body>
+    <header>
+      <div class="topo">
+        <h1 class="titulo">Mirror Tetris</h1>
+        <ul class="tópicos">
+          <li class="navegacao"><a href="Home.html">Jogar</a></li>
+          <li class="navegacao">
+            <a href="Ranking.html">Ranking Global</a>
+          </li>
+          <li class="navegacao">
+            <a href="Perfil.html">Perfil</a>
+          </li>
+          <li class="navegacao"><a href="inicio.html">Sair</a></li>
+        </ul>
+      </div>
+      
+    </header>
+    <br>
+
+    <!--Conteúdo usuário-->
+    <!-- Div translúcida -->
+    <div class="translucent-div tab-container">
+      <h1 class="profile-title">Perfil do Usuário</h1><br><br>
+
+      <!-- Abas -->
+      
+      <input type="radio" name="tab" id="tab1" class="tab-radio" checked />
+      <label for="tab1" class="tab" id="tab-label1">Dados Pessoais</label>
+
+      <input type="radio" name="tab" id="tab2" class="tab-radio" />
+      <label for="tab2" class="tab">Rei dos Jogos</label>
+
+      <input type="radio" name="tab" id="tab3" class="tab-radio" />
+      <label for="tab3" class="tab">Configurações</label>
+
+      <!-- Conteúdo das abas -->
+      <div class="tab-content" id="content1">
+        <br />
+        <div class="image-container">
+          <div class="circular-image">
+            <img src="imagens/pain.gif" alt="Foto de Perfil" />
+            
+          </div>
+          
+        </div><br><br>
+        <h3>Bem vindo</h3><h1>Julio De Simone</h1><br>
+        
+                
+        <div class="user-profile">         
+          
+          <div class="user-details">
+            <div class="input-field">
+              <label for="username">Nome de Usuário:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Julio De Simone"
+                readonly
+              />
+            </div>
+
+            
+
+            <div class="input-field">
+              <label for="email">Email Cadastrado:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jj@gmail.com"
+                readonly/>
+            </div>
+
+            
+
+            <div class="input-field">
+              <label for="birthdate">Data de Nascimento:</label>
+              <input
+                type="text"
+                id="birthdate"
+                name="birthdate"
+                placeholder="07/11/1994"
+                readonly
+              />
+            </div>
+
+            <div class="input-field">
+              <label for="country">País:</label>
+              <select id="country" name="country" disabled>
+                <option value="" disabled selected>Brazil</option>
+                <option value="brasil">Brasil</option>
+                <option value="estados-unidos">Estados Unidos</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="coreia">Coreia do Sul</option>
+              </select>
+            </div>
+
+            <div class="input-field">
+              <label for="gender">Sexo:</label>
+              <select id="gender" name="gender" disabled>
+                <option value="" disabled selected>Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="LGBTQIAPN+">LGBTQIAPN+</option>
+              </select>
+              
+            </div>
+          </div>
+        </div>
+        <a href="Editar.html"><button class="edit-button">Editar Perfil</button></a>        
+      </div>
+
+      <!-- Conteúdo da aba "Rei dos Jogos" -->
+      <div class="tab-content" id="content2">
+        <h2>Ranking: Prata</h2><br>
+
+        <!-- Campos sem caixas de texto -->
+        <label for="total-score">Pontuação total:</label>
+        <span id="total-score">5000</span><br />
+
+        <label for="max-score">Pontuação máxima:</label>
+        <span id="max-score">1000</span><br />
+
+        <label for="highest-level">Nível mais alto alcançado:</label>
+        <span id="highest-level">10</span><br />
+
+        <label for="best-time">Melhor tempo:</label>
+        <span id="best-time">2 minutos</span><br />
+
+        <label for="game-time">Tempo de jogo:</label>
+        <span id="game-time">5 horas</span><br />
+      </div>
+
+      <!-- Configurações-->
+      <div class="tab-content" id="content3">
+        <h2>Configurações</h2><br>
+        <label for="sound">Som do Jogo</label><label>
+          <input type="radio" name="sound" value="On">
+          On <input type="radio" name="sound" value="Off">
+          Off
+      </label><br>
+      <label for="sound">Música do Jogo</label><label>
+        <input type="radio" name="music" value="On">
+        On <input type="radio" name="music" value="Off">
+        Off
+    </label><br><br>
+    <a href="Perfil.html"><button class="edit-button">Salvar Configurações</button></a>
+    <a href="Email.html"><button class="edit-button">Alterar Email</button></a>
+    <a href="Senha.html"><button class="edit-button">Aterar Senha</button></a>
+        
+      </div>      
+
+      <div class="button-container">
+        <!-- <button class="cancel-button">Voltar</button> -->
+        
+    </div>    
+    </div>        
+    <br><br>
+
+    
+    <footer>
+      <p>&copy; SI401B - Programação para a Web - 2023</p>
+    </footer>
+  </body>
+</html>

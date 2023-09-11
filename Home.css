@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=VT323&family=Zeyada&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("imagens/Supernintendo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "VT323", monospace;
+}
+
+.topo {
+  color: #ffffff;
+  height: 165px;
+  position: relative;
+  background-color: black;
+}
+
+.titulo {
+  color: #ffffff;
+  align-content: center;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.tópicos {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navegacao {
+  height: 1%;
+  width: 11%;
+  border-radius: 25px;
+  padding: 15px 0;
+  margin: 0px 30px 50px;
+  background-color: gray;
+  color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+.navegacao:hover {
+  background-color: #66ff66;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+.tela {
+  border-radius: 20px;
+  margin-top: 230px;
+  background-color: transparent;
+  position: absolute;
+  width: 550px;
+  height: 650px;
+  justify-content: center;
+}
+
+aside {
+  margin-left: 130px;
+  margin-top: 200px;
+  display: flex;
+  position: absolute;
+}
+
+.info {
+  height: 350px;
+  width: 350px;
+  background-image: linear-gradient(
+    to right,
+    rgba(217, 217, 217, 0.32),
+    rgba(217, 217, 217, 0.32)
+  );
+  border: 5px solid black;
+  border-radius: 35px;
+}
+
+.textoInfo {
+  text-align: center;
+  padding-top: 15px;
+  list-style: none;
+  font-size: 25px;
+}
+
+.escolha {
+  text-align: left;
+  padding-top: 90px;
+  border-radius: 35px;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.tamanho {
+  height: 1%;
+  width: 100%;
+  border-radius: 25px;
+  padding: 15px 15px;
+  margin: 100px 30px 50px;
+  background-color: gray;
+  color: white;
+  transition-duration: 0.4s;
+  display: inline;
+  align-content: center;
+}
+.tamanho:hover {
+  background-color: #66ff66;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.botoes {
+  text-align: center;
+  display: flex;
+  padding-top: 40px;
+}
+
+.tetris {
+  width: 350px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}

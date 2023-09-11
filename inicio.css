@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=VT323&family=Zeyada&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("imagens/Tetris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Adicione esta linha */
+  font-family: "VT323", monospace;
+}
+
+input[type="submit"] {
+  height: 1%;
+  width: 15%;
+  border-radius: 25px;
+  padding: 15px 0;
+  margin: 50px 30px 50px;
+  background-color: gray;
+  color: white;
+  transition-duration: 0.4s;
+}
+input[type="submit"]:hover {
+  background-color: #66ff66;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.titulo {
+  font-size: 50px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+.info {
+  width: 60%;
+  background-image: linear-gradient(
+    to right,
+    rgba(217, 217, 217, 0.32),
+    rgba(217, 217, 217, 0.32)
+  );
+  margin-right: 20%;
+  margin-left: 20%;
+  border: 5px solid black;
+  text-align: center;
+}
+.US {
+  font-size: 35px;
+  color: black;
+}
+input[type="text"] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  width: 17%;
+  transition: width 0.4s ease-in-out;
+}
+input[type="password"] {
+  background-color: white;
+  color: black;
+  padding: 12px 22px;
+  width: 17%;
+  transition: width 0.4s ease-in-out;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  width: 25%;
+}
+a {
+  font-size: 20px;
+  color: lime;
+}
+footer {
+  background-color: #262626; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto no rodapé */
+  padding: 2px; /* Espaçamento interno no rodapé */
+  text-align: center; /* Alinhamento do texto no centro */
+  font-size: 20px; /* Tamanho da fonte do texto no rodapé */
+  position: fixed; /* Fixa o rodapé na parte inferior da janela de visualização */
+  left: 0; /* Alinha o rodapé à esquerda */
+  right: 0; /* Alinha o rodapé à direita */
+  bottom: 0; /* Fixa o rodapé na parte inferior */
+}

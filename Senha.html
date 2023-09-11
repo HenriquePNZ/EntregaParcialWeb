@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alterar Senha</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Perfil.css" />
+  </head>
+  
+<body>
+    <header>
+      <div class="topo">
+        <h1 class="titulo">Mirror Tetris</h1>
+        <ul class="tópicos">
+          <li class="navegacao"><a href="Home.html">Jogar</a></li>
+          <li class="navegacao">
+            <a href="Ranking.html">Ranking Global</a>
+          </li>
+          <li class="navegacao">
+            <a href="Perfil.html">Perfil</a>
+          </li>
+          <li class="navegacao"><a href="inicio.html">Sair</a></li>
+        </ul>
+      </div>
+      
+    </header>
+    <br>
+
+    <!--Conteúdo usuário-->
+    <!-- Div translúcida -->
+    <div class="translucent-div tab-container">
+      <h1 class="profile-title">Alterar Senha de Usuário</h1><br><br>
+
+      <!-- Abas -->
+      
+      <input type="radio" name="tab" id="tab1" class="tab-radio" checked />
+      <label for="tab1" class="tab" id="tab-label1">Alterar Senha</label>
+      
+      <!-- Conteúdo das abas -->
+      
+    
+    <br><br>
+    <div class="input-field">      
+      <label for="password">Senha Antiga:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Digite sua senha anterior"
+      />
+    </div>
+
+    <div class="input-field">      
+      <label for="newpassword">Nova Senha:</label>
+      <input
+        type="password"
+        id="newpassword"
+        name="password"
+        placeholder="Digite sua nova senha"
+      />
+    </div>
+
+    <div class="input-field">
+      <label for="confirmpassword">Confirmar Senha</label>
+      <input
+        type="password"
+        id="confirmpassword"
+        name="confirmpassword"
+        placeholder="Confirme sua nova senha"
+      />
+    </div>
+
+            <br>
+        <a href="Perfil.html"><button class="edit-button">Salvar</button></a>        
+      </div>
+
+      <div class="button-container">
+        <!-- <button class="cancel-button">Voltar</button> -->
+        
+    </div>    
+    </div>        
+    <br><br>
+
+    
+    <footer>
+      <p>&copy; SI401B - Programação para a Web - 2023</p>
+    </footer>
+  </body>
+</html>
